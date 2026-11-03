@@ -1,11 +1,13 @@
-# Full Stack Open - Part 0
+Full Stack Open - Part 0
 
-- [x] 0.1: HTML basics
-- [x] 0.2: CSS basics
-- [x] 0.3: HTML forms
+0.1: HTML basics
 
-## 0.4: New note diagram
-```mermaid
+0.2: CSS basics
+
+0.3: HTML forms
+
+0.4: New note diagram
+
 sequenceDiagram
     participant browser
     participant server
@@ -34,7 +36,9 @@ sequenceDiagram
     activate server
     server-->>browser: JSON data
     deactivate server
+
 0.5: Single page app diagram
+
 sequenceDiagram
     participant browser
     participant server
@@ -58,7 +62,9 @@ sequenceDiagram
     activate server
     server-->>browser: JSON data
     deactivate server
+
 0.6: New note in Single page app diagram
+
 sequenceDiagram
     participant browser
     participant server
